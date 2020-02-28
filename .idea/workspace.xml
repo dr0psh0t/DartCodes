@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0bc7f33-7c22-410c-a5ce-0cf0c4cf8e96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/AsyncAwait/async_await.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/AsyncAwait/iterating.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/AsyncAwait/multiple_async_calls.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/AsyncAwait/sample.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/AsyncAwait/waiting.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ConsoleInput/console_input.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ExceptionHandling/custom_exceptions.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ExceptionHandling/exceptions_introduction.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ExceptionHandling/throwing_an_exception.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ExceptionHandling/try_catch_block.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ExceptionHandling/try_catch_on_block.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/collections/lists.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/collections/maps.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/collections/prefer_collection_literal.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/SQLite/db_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/collections/more_lists.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/collections/sets.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/collections/lists.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/collections/lists.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/collections/maps.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/collections/maps.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +42,9 @@
       <recent name="D:\DartCodes\lib\collections" />
     </key>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.waiting.dart">
-    <configuration name="async_await.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/lib/AsyncAwait/async_await.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="iterating.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/lib/AsyncAwait/iterating.dart" />
+  <component name="RunManager" selected="Dart Command Line App.lists.dart">
+    <configuration name="lists.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/collections/lists.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -66,13 +53,18 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="multiple_async_calls.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/lib/AsyncAwait/multiple_async_calls.dart" />
+    <configuration name="maps.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/collections/maps.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="sample.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/lib/AsyncAwait/sample.dart" />
+    <configuration name="more_lists.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/collections/more_lists.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sets.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/collections/sets.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -83,11 +75,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.lists.dart" />
+        <item itemvalue="Dart Command Line App.maps.dart" />
+        <item itemvalue="Dart Command Line App.sets.dart" />
+        <item itemvalue="Dart Command Line App.more_lists.dart" />
         <item itemvalue="Dart Command Line App.waiting.dart" />
-        <item itemvalue="Dart Command Line App.iterating.dart" />
-        <item itemvalue="Dart Command Line App.multiple_async_calls.dart" />
-        <item itemvalue="Dart Command Line App.sample.dart" />
-        <item itemvalue="Dart Command Line App.async_await.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -109,22 +101,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="692" y="117" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1581663000276" />
-    <state width="1007" height="129" key="GridCell.Tab.0.bottom" timestamp="1581754095902">
+    <state width="883" height="138" key="GridCell.Tab.0.bottom" timestamp="1581917197744">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1007" height="129" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581754095902" />
-    <state width="1007" height="129" key="GridCell.Tab.0.center" timestamp="1581754095902">
+    <state width="883" height="138" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581917197744" />
+    <state width="883" height="138" key="GridCell.Tab.0.center" timestamp="1581917197744">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1007" height="129" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1581754095902" />
-    <state width="1007" height="129" key="GridCell.Tab.0.left" timestamp="1581754095902">
+    <state width="883" height="138" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1581917197744" />
+    <state width="883" height="138" key="GridCell.Tab.0.left" timestamp="1581917197744">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1007" height="129" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1581754095902" />
-    <state width="1007" height="129" key="GridCell.Tab.0.right" timestamp="1581754095902">
+    <state width="883" height="138" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1581917197744" />
+    <state width="883" height="138" key="GridCell.Tab.0.right" timestamp="1581917197744">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1007" height="129" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1581754095902" />
+    <state width="883" height="138" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1581917197744" />
     <state x="617" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1581651823097">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

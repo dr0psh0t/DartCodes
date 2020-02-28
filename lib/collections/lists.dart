@@ -38,4 +38,13 @@ void main() {
   growableStringList[1] = 'Mango';
 
   print(growableStringList);
+
+  var list = ['apples', 'bananas', 'oranges'];
+  list.forEach((item) {
+    print('${list.indexOf(item)}: $item');
+  });
+
+  for (var fruit in list) {
+    print(fruit);
+  }
 }
